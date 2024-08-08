@@ -1,0 +1,222 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #282928;
+}
+
+.footer-block1 {
+    width: 100%;
+    height: auto;
+}
+
+.footer-block1-links {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer-block1-links-logo {
+    width: 25%;
+    height: auto;
+}
+
+.footer-block1-links-logo img {
+    width: 50%;
+    height: 100px;
+}
+
+.footer-block1-links-service {
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-block1-links-service h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-block1-links-service a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+    line-height: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-block1-links-service a:hover {
+    margin-left: 10px;
+}
+
+
+
+.footer-block1-links-companies {
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-block1-links-companies h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.footer-block1-links-companies a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+    line-height: 30px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 25px;
+}
+
+.footer-block1-links-companies a:hover {
+    margin-left: 35px;
+}
+
+
+
+.footer-block1-links-location {
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-block1-links-location h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-block1-links-location span {
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+    line-height: 30px;
+}
+
+
+.footer-block2 {
+    width: 100%;
+    height: auto;
+}
+
+.footer-block2-location {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer-block2-location-info {
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-block2-location-info h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 174, 0);
+}
+
+.footer-block2-location-info p {
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-block3 {
+    width: 100%;
+    height: auto;
+}
+
+.footer-block3-social {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-block3-social-left p {
+    font-size: 15px;
+    color: rgb(255, 174, 0);
+}
+
+.footer-block3-social-left p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 174, 0);
+}
+
+.footer-block3-social-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-block3-social-right div {
+    width: 40px;
+    height: 40px;
+    background-color: #5e5c5c;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+.footer-block3-social-right div .bi-facebook {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-block3-social-right div .bi-facebook:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.footer-block3-social-right div .bi-instagram {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-block3-social-right div .bi-instagram:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 149);
+}
+
+.footer-block3-social-right div .bi-whatsapp {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-block3-social-right div .bi-whatsapp:hover {
+    cursor: pointer;
+    color: rgb(0, 255, 13);
+}
+
+.footer-block3-social-right div .bi-twitter {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-block3-social-right div .bi-twitter:hover {
+    cursor: pointer;
+    color: rgb(0, 195, 255);
+}

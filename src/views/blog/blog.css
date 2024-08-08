@@ -1,0 +1,120 @@
+.blog-banner{
+    width: 100%;
+    height: auto;
+}
+
+.blog-banner-image{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.blog-banner-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.blog-banner-content{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: start;
+}
+
+.blog-banner-content h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.blog-content{
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.blog-content-heading h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.blogs {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.blogs-heading {
+    margin-bottom: 50px;
+}
+
+.blogs-heading h1 {
+    font-size: 25px;
+}
+
+.blogs-contnet {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px auto;
+}
+
+.blogs-contnet-1 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px;
+    transition: all 0.5s ease-in-out;
+    margin: 25px 20px;
+}
+
+.blogs-contnet-1:hover {
+    box-shadow: 1px 1px 15px rgb(218, 216, 216);
+}
+
+.blogs-contnet-1-image {
+    width: 90%;
+    height: auto;
+}
+
+.blogs-contnet-1-image img {
+    width: 100%;
+    height: 250px;
+}
+
+.blogs-contnet-1-info {
+    width: 90%;
+    height: auto;
+    text-align: start;
+    margin: 10px 0px;
+}
+
+.blogs-contnet-1-info span {
+    margin: 0px 20px 0px 0px;
+    font-size: 15px;
+}
+
+.blogs-contnet-1-info span i {
+    font-size: 15px;
+    margin: 0px 10px 0px 0px;
+}
+
+.blogs-contnet-1-info h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.blogs-contnet-1-info h6:hover {
+    color: rgb(255, 145, 0);
+}

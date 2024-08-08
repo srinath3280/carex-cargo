@@ -1,0 +1,27 @@
+.reviews-mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-mySwiper .slides {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.reviews-mySwiper .slides img {
+    width: 150px;
+    height: 150px;
+}
+
+.reviews-mySwiper .slides h5 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.reviews-mySwiper .slides p {
+    font-size: 17px;
+}

@@ -1,0 +1,458 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.home-image-content {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: justify;
+}
+
+.home-image-content-box h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.home-image-content-box h1:hover {
+    color: rgb(255, 153, 0);
+}
+
+.home-image-content-box p {
+    font-size: 1.6rem;
+    margin-bottom: 75px;
+}
+
+.home-image-content-box a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 0px 25px 0px 0px;
+
+}
+
+.home-image-content-box a:hover {
+    color: grey;
+}
+
+/* Projects */
+.home-projects {
+    width: 100%;
+    height: auto;
+}
+
+.home-projects-heading h1 {
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+/* Services */
+.home-services {
+    width: 100%;
+    height: auto;
+}
+
+.home-services-heading {
+    margin: 50px 0px;
+}
+
+.home-services-heading h1 {
+    font-size: 25px;
+}
+
+.home-services-heading p {
+    font-size: 16px;
+}
+
+
+.home-services-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 50px;
+}
+
+.home-services-content-1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.home-services-content-1-icon {
+    width: 100%;
+    height: auto;
+}
+
+.home-services-content-1-icon .bi-airplane {
+    font-size: 100px;
+    color: orange;
+}
+
+.home-services-content-1-icon .bi-truck {
+    font-size: 100px;
+    color: orange;
+}
+
+.home-services-content-1-icon .bi-train-front {
+    font-size: 100px;
+    color: orange;
+}
+
+.home-services-content-1-icon .bi-house-door {
+    font-size: 100px;
+    color: orange;
+}
+
+.home-services-content-1-icon .bi-headset {
+    font-size: 100px;
+    color: orange;
+}
+
+.home-services-content-1-icon .bi-diagram-2 {
+    font-size: 100px;
+    color: orange;
+}
+
+
+.home-services-content-1-icon .bi-airplane:hover {
+    color: black;
+}
+
+.home-services-content-1-icon .bi-truck:hover {
+    color: black;
+}
+
+.home-services-content-1-icon .bi-train-front:hover {
+    color: black;
+}
+
+.home-services-content-1-icon .bi-house-door:hover {
+    color: black;
+}
+
+.home-services-content-1-icon .bi-headset:hover {
+    color: black;
+}
+
+.home-services-content-1-icon .bi-diagram-2:hover {
+    color: black;
+}
+
+.home-services-content-1-info {
+    width: 75%;
+    height: auto;
+}
+
+.home-services-content-1-info h3 {
+    font-size: 25px;
+}
+
+.home-services-content-1-info p {
+    font-size: 16px;
+    color: #5c5b5b;
+    margin-bottom: 20px;
+}
+
+.home-services-content-1-info a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.home-services-content-1-info a:hover {
+    color: grey;
+}
+
+
+/* Industries */
+.home-industries {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.home-industries-heading h1 {
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+.home-industries-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-industries-content-1 {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Why choose careX */
+.home-whychoose {
+    width: 100%;
+    height: auto;
+    background-color: rgb(28, 130, 224);
+    padding: 10px 0px;
+}
+
+.home-whychoose-heading {
+    margin-bottom: 50px;
+}
+
+.home-whychoose-heading h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.home-whychoose-heading p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.home-whychoose-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-whychoose-content-1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-whychoose-content-1-image {
+    width: 90%;
+    height: 125px;
+}
+
+.home-whychoose-content-1-info {
+    width: 75%;
+    height: auto;
+}
+
+.home-whychoose-content-1-info h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.home-whychoose-content-1-info p {
+    color: #e9e3e3;
+}
+
+
+
+/* Customer reviews */
+.home-reviews {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.home-reviews-heading {
+    margin-bottom: 50px;
+}
+
+.home-reviews-heading h1 {
+    font-size: 25px;
+}
+
+.home-reviews-heading p {
+    font-size: 18px;
+}
+
+
+/* Latest Blogs */
+.home-blogs {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.home-blogs-heading {
+    margin-bottom: 50px;
+}
+
+.home-blogs-heading h1 {
+    font-size: 25px;
+}
+
+.home-blogs-contnet {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.home-blogs-contnet-1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-blogs-contnet-1:hover {
+    box-shadow: 1px 1px 15px rgb(218, 216, 216);
+}
+
+.home-blogs-contnet-1-image {
+    width: 90%;
+    height: auto;
+}
+
+.home-blogs-contnet-1-image img {
+    width: 100%;
+    height: 250px;
+}
+
+.home-blogs-contnet-1-info {
+    width: 90%;
+    height: auto;
+    text-align: start;
+    margin: 10px 0px;
+}
+
+.home-blogs-contnet-1-info span {
+    margin: 0px 20px 0px 0px;
+    font-size: 15px;
+}
+
+.home-blogs-contnet-1-info span i {
+    font-size: 15px;
+    margin: 0px 10px 0px 0px;
+}
+
+.home-blogs-contnet-1-info h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.home-blogs-contnet-1-info h6:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+/* FAQ's */
+.home-faq {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.home-faq-heading {
+    margin-bottom: 50px;
+}
+
+.home-faq-heading h1 {
+    font-size: 25px;
+}
+
+
+/* src/FAQ.css */
+
+.faq-container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.faq-item {
+    border: 1px solid #070707;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.faq-question:hover {
+    background-color: #e8e8e8;
+}
+
+.faq-question span{
+    font-size: 22px;
+}
+
+.faq-answer {
+    padding: 15px;
+    background-color: #fff;
+    text-align: justify;
+}
